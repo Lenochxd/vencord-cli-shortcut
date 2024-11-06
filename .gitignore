@@ -1,0 +1,16 @@
+# Byte-compiled
+*.pyc
+__pycache__
+
+# Distribution / packaging
+build
+dist
+
+# Installer
+vencord-cli/VencordInstallerCli.exe
+
+# Virtual environment
+venv
+
+# macOS
+.DS_Store
