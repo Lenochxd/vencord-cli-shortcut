@@ -16,7 +16,7 @@ This project is designed to download and run the latest version of Vencord CLI f
 
 #### MSI Installer
 
-1. Download and run the [MSI installer](https://github.com/Lenochxd/vencord-cli-shortcut/releases/latest/download/vencordinstall-1.0-win64.msi).
+1. Download and run the [MSI installer](https://github.com/Lenochxd/vencord-cli-shortcut/releases/latest/download/vencordinstall-win64.msi).
 2. After installation, you can use the command `vencordinstall` in your terminal to run the latest version of Vencord CLI.
 
 #### Portable Version

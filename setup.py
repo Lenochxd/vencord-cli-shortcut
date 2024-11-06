@@ -115,6 +115,15 @@ if __name__ == "__main__":
     # Zip the build directory
     zip_build(build_dir)
     
+    # Rename the MSI file to remove the version from it
+    msi_file = f"dist/vencordinstall-{version.removeprefix('v')}-win64.msi"
+    new_msi_file = "dist/vencordinstall-win64.msi"
+    if os.path.exists(msi_file):
+        os.rename(msi_file, new_msi_file)
+        print(f"Renamed MSI file to '{new_msi_file}'")
+    else:
+        print(f"MSI file '{msi_file}' not found")
+    
     
     end_time = time.time()
     elapsed_time = end_time - start_time
